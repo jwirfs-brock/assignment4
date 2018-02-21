@@ -1,9 +1,28 @@
 h1{
-  font-family: Arial;
   color: #FF5733 ;
+}
+
+.maintext{
+  font-family: Verdana, sans-serif;
+  color: #333333;
 }
 
 
 .alert {
   display:none;
+}
+
+table, th, td{
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.day{
+  background-color: yellow;
+}
+
+.night{
+  background-color: black;
+  color: white;
 }
