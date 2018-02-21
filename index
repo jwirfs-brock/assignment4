@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+  <title>Assignment 4: A11ty Blog</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="a4.css" >
+  </head>
+
+  <body>
+
+    <div role="banner" aria-label="header">
+      <h1>Text will go here</h1>
+  </div>
+
+
+    <div class="accessible_menu" id="accessible_menu_example" role="navigation" aria-label="main navigation">
+      <ul>
+      <li><button class="nav_button" id="home">Home</button></li>
+      <li><button class="nav_button" id="about">About</button></li>
+      <li><button class="nav_button" id="archive">Archive</button></li>
+      <li><button class="nav_button" id="contact">Contact</button></li>
+    </ul>
+  </div>
+
+  <div role="main" aria-label="main content">
+    <p>Blog text goes here</p>
+    <div aria-label="section one">
+      <p>Section 1</p>
+    </div>
+    <div aria-label="section two">
+      <p>Section 2</p>
+  </div>
+  <div aria-label="section three">
+
+    <table>
+  <tr>
+    <td></td>
+    <th>Loop 1</th>
+    <th>Loop 2</th>
+    <th>Loop 3</th>
+    <th>Loop 4</th>
+  </tr>
+  <tr>
+    <th>Total Loop Time</th>
+    <td>5:15:48 (day)</td>
+    <td>5:43:25 (day)</td>
+    <td>6:57:05 (night)</td>
+    <td>6:45:19 (night)</td>
+  </tr>
+  <tr>
+    <th>Start to Pickett</th>
+    <td>1:54:58 (day)</td>
+    <td>2:04:26 (day)</td>
+    <td>2:29:28 (night)</td>
+    <td>2:43:02 (night)</td>
+  </tr>
+  <tr>
+<th>Pickett to Mt. Constitution</th>
+    <td>?? (day)</td>
+    <td>2:26:48 (day)</td>
+    <td>3:04:13 (night)</td>
+    <td>2:56:54 (night)</td>
+  </tr>
+  <tr>
+    <th>Mt. Constitution to Finish</th>
+    <td>?? (day)</td>
+    <td>1:12:11 (night)</td>
+    <td>1:23:24 (night)</td>
+    <td>1:05:23 (day)</td>
+  </tr>
+</table>
+
+  </div>
+  <div aria-label="contact me">
+    <p>Contact me!</p>
+    <label for="your_name">Your name:</label>
+    <input id="your_name" type="text" />
+    <br >
+    <label>Your email address</label>
+    <input id="input_email" aria-label="Your E-mail" type="text" />
+    <br >
+    <label>Your comment</label>
+    <textarea id="input_comment" aria-label="Your Comment" type="paragraph-text"></textarea>
+    <button class="contact_button" id="submit_button">Submit</button>
+    <div id="submit_alert" role="alert" class="alert">Submitted. Thank you for your comment.</div>
+</div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="a4.js"></script>
+  </body>
+
+</html>
