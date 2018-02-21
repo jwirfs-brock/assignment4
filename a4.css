@@ -1,15 +1,38 @@
-h1{
-  color: #FF5733 ;
+body {
+  width: 70%;
+  margin: 20px;
+  padding-bottom:80px;
 }
+
+h1, h2, h3{
+  color: #FF5733 ;
+  font-family: monospace;
+}
+
 
 .maintext{
   font-family: Verdana, sans-serif;
-  color: #333333;
+  color: #666;
+}
+
+.accessible_menu{
+  margin: 50px;
+  font-size: 20px;
+  font-family: sans-serif;
+  list-style-type:none;
 }
 
 
 .alert {
   display:none;
+  background-color: MediumSeaGreen;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 50%;
 }
 
 table, th, td{
@@ -25,4 +48,13 @@ table, th, td{
 .night{
   background-color: black;
   color: white;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+li{
+  line-height: 1.5;
 }
